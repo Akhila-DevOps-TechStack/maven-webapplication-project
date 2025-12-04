@@ -102,21 +102,21 @@
     </div>
 
     <!-- Contact Info -->
-    <div class="info-card text-center">
+    <div class="info-card">
         <h4>🛠 Projects</h4>
         <h2>1️⃣ CI/CD Pipeline (Fresher Level Project)</h2>
         <p><b>Tools:</b>Git → GitHub → Jenkins → Maven → SonarQube → Nexus → Tomcat</p>
         <ul>
-           Built a complete CI/CD pipeline for a sample Java application
-           Performed code build using Maven
-           Sent artifacts to Nexus
-           Deployed automatically to Tomcat server
+           <li>Built a complete CI/CD pipeline for a sample Java application.</li>
+           <li>Performed code build using Maven.</li>
+           <li>Sent artifacts to Nexus.</li>
+           <li>Deployed automatically to Tomcat server.</li>
         </ul>
         <h2>2️⃣ AWS EC2 Website Hosting</h2>
         <p>
         <ul>
-          Launched an EC2 Linux instance
-          Installed Apache/Tomcat and hosted a sample application
+          <li>Launched an EC2 Linux instance.</li>
+          <li>Installed Apache/Tomcat and hosted a sample application</li>
         </ul>
         </p>
 
