@@ -55,17 +55,54 @@
     <!-- Server Info -->
     <div class="info-card">
         <h3>About Me</h3>
-        <p>I am a passionate DevOps & Cloud Engineer with hands-on experience in AWS, CI/CD pipelines, Linux administration, automation, and containerization. I love solving real-world problems, improving deployment efficiency, and building secure, scalable infrastructure.
-
-           My goal is to become a highly skilled DevSecOps & SRE engineer delivering reliable and secure cloud solutions.</p>
+        <p>I am an enthusiastic DevOps & Cloud Engineer looking for opportunities to begin my career. I have hands-on practice in AWS, Jenkins, Linux, GitHub, and CI/CD tools learned through projects and training.
+            I enjoy automating tasks, solving technical problems, and learning new technologies every day.</p>
     </div>
 
-    <!-- Client Info -->
+    <!-- Skills Info -->
     <div class="info-card">
-        <h3>💻 Client Side Information</h3>
+        <h3>🚀 Skills</h3>
         <hr>
-        <p><b>Client IP Address:</b> <%= request.getRemoteAddr() %></p>
-        <p><b>Client Host Name:</b> <%= request.getRemoteHost() %></p>
+        <p><b>DevOps Tools :</b></p>
+        <ul>
+           <li>Jenkins</li>
+           <li>Git & GitHub</li>
+           <li>Maven</li>
+           <li>SonarQube</li>
+           <li>Nexus Repository</li>
+           <li>Tomcat Server</li>
+           <li>Docker (Basics)</li>
+           <li>Kubernetes (Basics)</li>
+        </ul>
+       <p><b>Cloud (AWS):</b></p>
+    <ul>
+        <li>EC2</li>
+        <li>S3</li>
+        <li>IAM</li>
+        <li>VPC (Basics)</li>
+        <li>CloudWatch</li>
+    </ul>
+
+    <p><b>Linux:</b></p>
+    <ul>
+        <li>Basic Commands</li>
+        <li>User & Permission Management</li>
+        <li>Systemctl Services</li>
+        <li>File & Directory Operations</li>
+    </ul>
+
+    <p><b>Scripting:</b></p>
+    <ul>
+        <li>Shell Scripting (Basics)</li>
+    </ul>
+
+    <p><b>Web Technologies:</b></p>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Bootstrap</li>
+    </ul>
+       
     </div>
 
     <!-- Contact Info -->
