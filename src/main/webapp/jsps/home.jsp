@@ -77,18 +77,14 @@
        <p><b>Cloud (AWS):</b></p>
     <ul>
         <li>EC2</li>
-        <li>S3</li>
-        <li>IAM</li>
-        <li>VPC (Basics)</li>
-        <li>CloudWatch</li>
+
     </ul>
 
     <p><b>Linux:</b></p>
     <ul>
         <li>Basic Commands</li>
         <li>User & Permission Management</li>
-        <li>Systemctl Services</li>
-        <li>File & Directory Operations</li>
+        
     </ul>
 
     <p><b>Scripting:</b></p>
@@ -107,12 +103,23 @@
 
     <!-- Contact Info -->
     <div class="info-card text-center">
-        <img src="images/kkfunda.jpg" alt="KK FUNDA Logo" width="120" class="mb-3 rounded-circle shadow">
-        <h4>KK FUNDA</h4>
-        <p><b>Address:</b> Martha Halli, Bangalore</p>
-        <p><b>Phone:</b> +91-9676831734</p>
-        <p><b>Email:</b> <a href="mailto:kkeducationblr@gmail.com">kkeducationblr@gmail.com</a></p>
-        <a href="mailto:kkeducation@gmail.com" class="btn btn-primary mt-2">📧 Mail to KK FUNDA</a>
+        <h4>🛠 Projects</h4>
+        <h2>1️⃣ CI/CD Pipeline (Fresher Level Project)</h2>
+        <p><b>Tools:</b>Git → GitHub → Jenkins → Maven → SonarQube → Nexus → Tomcat</p>
+        <ul>
+           Built a complete CI/CD pipeline for a sample Java application
+           Performed code build using Maven
+           Sent artifacts to Nexus
+           Deployed automatically to Tomcat server
+        </ul>
+        <h2>2️⃣ AWS EC2 Website Hosting</h2>
+        <p>
+        <ul>
+          Launched an EC2 Linux instance
+          Installed Apache/Tomcat and hosted a sample application
+        </ul>
+        </p>
+
     </div>
 
     <!-- Service Links -->
