@@ -123,9 +123,9 @@
     </div>
 
     <!-- Service Links -->
-    <div class="info-card text-center">
+    <div class="info-card">
         <h4>📚 Education</h4>
-        <h3>🎓 Education</h3>
+       
     <hr>
 
     <p><b>Master of Computer Applications (MCA)</b></p>
