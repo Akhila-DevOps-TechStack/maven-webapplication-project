@@ -46,22 +46,18 @@
 <body>
 
 <header>
-    <h1>🚀 Welcome to DEVOPS AWS Portal 🚀</h1>
-    <h3>Training | Development | Consulting</h3>
+    <h1>🚀 Welcome to Akhila's DevOps Portfolio 🚀</h1>
+    <h3>DevOps | AWS | DevSecOps | SRE</h3>
 </header>
 
 <div class="container">
 
     <!-- Server Info -->
     <div class="info-card">
-        <h3>🌐 Server Side Information</h3>
-        <hr>
-        <%
-            InetAddress inetAddress = InetAddress.getLocalHost();
-            String ip = inetAddress.getHostAddress();
-            out.println("<p><b>Server Host Name:</b> " + inetAddress.getHostName() + "</p>");
-            out.println("<p><b>Server IP Address:</b> " + ip + "</p>");
-        %>
+        <h3>About Me</h3>
+        <p>I am a passionate DevOps & Cloud Engineer with hands-on experience in AWS, CI/CD pipelines, Linux administration, automation, and containerization. I love solving real-world problems, improving deployment efficiency, and building secure, scalable infrastructure.
+
+           My goal is to become a highly skilled DevSecOps & SRE engineer delivering reliable and secure cloud solutions.</p>
     </div>
 
     <!-- Client Info -->
@@ -85,7 +81,7 @@
     <!-- Service Links -->
     <div class="info-card text-center">
         <h4>⚙️ Our Services</h4>
-        <p><a href="services/employee/getEmployeeDetails" class="btn btn-success">Get Employee Details</a></p>
+        <p><a href="services/employee/getEmployeeDetails" class="btn btn-success">Get Details</a></p>
     </div>
 
 </div>
