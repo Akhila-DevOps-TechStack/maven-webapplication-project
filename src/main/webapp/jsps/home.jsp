@@ -124,8 +124,23 @@
 
     <!-- Service Links -->
     <div class="info-card text-center">
-        <h4>⚙️ Our Services</h4>
-        <p><a href="services/employee/getEmployeeDetails" class="btn btn-success">Get Details</a></p>
+        <h4>📚 Education</h4>
+        <h3>🎓 Education</h3>
+    <hr>
+
+    <p><b>Master of Computer Applications (MCA)</b></p>
+    <ul>
+        <li>Avanti PG College</li>
+        <li>Osmania University</li>
+        <li>2022 – 2024</li>
+    </ul>
+
+    <p><b>Bachelor of Science – B.Sc (MPCs)</b></p>
+    <ul>
+        <li>Annie Besant Women's College</li>
+        <li>Osmania University</li>
+        <li>2019 – 2022</li>
+    </ul>
     </div>
 
 </div>
