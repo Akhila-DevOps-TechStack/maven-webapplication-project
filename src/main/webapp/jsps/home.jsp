@@ -151,7 +151,7 @@
 
     <p><b>Name:</b> Akhila Vodnala</p>
     <p><b>Email:</b>akhilavodnala29@gmail.com</p>
-    <p><b>Phone:</b>+91 6303585954/p>
+    <p><b>Phone:</b>+91 6303585954</p>
     <p><b>Location:</b>Hyderabad,Telangana,India</p>
     
     <p><b>LinkedIn:</b> 
