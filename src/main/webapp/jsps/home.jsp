@@ -149,10 +149,10 @@
     <h3>📞 Contact Me</h3>
     <hr>
 
-    <p><b>Name:</b> Akhila</p>
-    <p><b>Email:</b> yourmail@example.com</p>
-    <p><b>Phone:</b> 00000-00000</p>
-    <p><b>Location:</b> India</p>
+    <p><b>Name:</b> Akhila Vodnala</p>
+    <p><b>Email:</b>akhilavodnala29@gmail.com</p>
+    <p><b>Phone:</b>+91 6303585954/p>
+    <p><b>Location:</b>Hyderabad,Telangana,India</p>
     
     <p><b>LinkedIn:</b> 
         <a href="https://www.linkedin.com/in/your-link" target="_blank">
@@ -161,8 +161,8 @@
     </p>
 
     <p><b>GitHub:</b>
-        <a href="https://github.com/your-username" target="_blank">
-            github.com/your-username
+        <a href="https://github.com/Akhila-DevOps" target="_blank">
+            github.com/akhila6935
         </a>
     </p>
 </div>
