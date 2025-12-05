@@ -144,11 +144,36 @@
     </div>
 
 </div>
+<!-- Contact Section -->
+<div class="info-card">
+    <h3>📞 Contact Me</h3>
+    <hr>
 
-<footer>
-    <p>© 2024 KK FUNDA Training & Development Center</p>
-    <p><small>Powered by <a href="https://google.com/">KK FUNDA</a></small></p>
+    <p><b>Name:</b> Akhila</p>
+    <p><b>Email:</b> yourmail@example.com</p>
+    <p><b>Phone:</b> 00000-00000</p>
+    <p><b>Location:</b> India</p>
+    
+    <p><b>LinkedIn:</b> 
+        <a href="https://www.linkedin.com/in/your-link" target="_blank">
+            Click Here
+        </a>
+    </p>
+
+    <p><b>GitHub:</b>
+        <a href="https://github.com/your-username" target="_blank">
+            github.com/your-username
+        </a>
+    </p>
+</div>
+
+
+<!-- Footer Section -->
+<footer style="background: #111; color: #fff; text-align: center; padding: 20px; margin-top: 40px;">
+    <p>© 2025 Akhila | DevOps & Cloud Engineer</p>
+    <p>Designed & Developed by Akhila</p>
 </footer>
+
 
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
