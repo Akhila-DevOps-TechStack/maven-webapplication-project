@@ -161,8 +161,8 @@
     </p>
 
     <p><b>GitHub:</b>
-        <a href="https://github.com/Akhila-DevOps" target="_blank">
-            https://github.com/Akhila6935
+        <a href="https://github.com/Akhila6935" target="_blank">
+            github.com
         </a>
     </p>
 </div>
