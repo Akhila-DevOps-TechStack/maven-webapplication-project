@@ -155,14 +155,14 @@
     <p><b>Location:</b>Hyderabad,Telangana,India</p>
     
     <p><b>LinkedIn:</b> 
-        <a href="https://www.linkedin.com/in/your-link" target="_blank">
+        <a href="www.linkedin.com/in/akhila-vodnala-378932283" target="_blank">
             Click Here
         </a>
     </p>
 
     <p><b>GitHub:</b>
         <a href="https://github.com/Akhila-DevOps" target="_blank">
-            github.com/akhila6935
+            https://github.com/Akhila6935
         </a>
     </p>
 </div>
