@@ -34,7 +34,7 @@ pipeline {
                 sh """
                     curl -u akhila:laxmi \
                     --upload-file /var/lib/jenkins/workspace/Declarative-pipeline-job/target/maven-web-application.war \
-                    "http://3.110.43.193:8080/manager/text/deploy?path=/maven-web-application&update=true"
+                    "http://65.2.122.48/:8080/manager/text/deploy?path=/maven-web-application&update=true"
                 """
             }
         }
