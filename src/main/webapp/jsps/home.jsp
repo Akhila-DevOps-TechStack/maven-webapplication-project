@@ -103,8 +103,9 @@
 
     <!-- Contact Info -->
     <div class="info-card">
-        <h4>🛠 Projects</h4>
-        <h2>1️⃣ CI/CD Pipeline (Fresher Level Project)</h2>
+        <h3>🛠 Projects</h3>
+    <hr>
+        <h4>1️⃣ Java Web Application Deployment on AWS EC2 (RHEL & Tomcat) </h4>
         <p><b>Tools:</b>Git → GitHub → Jenkins → Maven → SonarQube → Nexus → Tomcat</p>
         <ul>
            <li>Built a complete CI/CD pipeline for a sample Java application.</li>
@@ -112,7 +113,7 @@
            <li>Sent artifacts to Nexus.</li>
            <li>Deployed automatically to Tomcat server.</li>
         </ul>
-        <h2>2️⃣ AWS EC2 Website Hosting</h2>
+        <h4>2️⃣ AWS EC2 Website Hosting</h4>
         <p>
         <ul>
           <li>Launched an EC2 Linux instance.</li>
