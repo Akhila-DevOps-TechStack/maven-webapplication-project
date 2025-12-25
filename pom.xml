@@ -97,7 +97,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>KK FUNDA Snapshot Nexus Repository </name>
-	      <url>http://3.110.153.55:8081/repository/web-application-project/</url>
+	      <url>http://15.207.84.197:8081/repository/my-webb-app-freestyle-project/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
