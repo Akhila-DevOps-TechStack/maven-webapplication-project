@@ -71,8 +71,8 @@
            <li>SonarQube</li>
            <li>Nexus Repository</li>
            <li>Tomcat Server</li>
-           <li>Docker (Basics)</li>
-           <li>Kubernetes (Basics)</li>
+           <li>Docker</li>
+           <li>Kubernetes</li>
         </ul>
        <p><b>Cloud (AWS):</b></p>
     <ul>
