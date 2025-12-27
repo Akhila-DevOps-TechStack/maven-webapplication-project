@@ -66,7 +66,7 @@
         <p><b>DevOps Tools :</b></p>
         <ul>
            <li>Jenkins</li>
-           <li>Git & GitHub</li>
+           <li>Git&GitHub</li>
            <li>Maven</li>
            <li>SonarQube</li>
            <li>Nexus Repository</li>
