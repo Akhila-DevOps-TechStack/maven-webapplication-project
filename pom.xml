@@ -93,12 +93,13 @@
 	      <name>KK FUNDA Releases Nexus Repository</name>
 	      <url>http://172.31.40.189:8081/repository/flipkart-release/</url>
 	    </repository>
-	    
+	 <!--
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>KK FUNDA Snapshot Nexus Repository </name>
 	      <url>http://13.201.52.96:8081/repository/Akhila-portfolio/</url>
 	    </snapshotRepository>
+	-->
 		<snapshotRepository>
 	      <id>nexus</id>
 	      <name>KK FUNDA Snapshot Nexus Repository </name>
