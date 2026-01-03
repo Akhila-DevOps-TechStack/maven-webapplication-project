@@ -42,7 +42,7 @@ pipeline {
         }
     }
 
-<!--    post {
+/*   post {
         always {
             slackSend(
                 channel: '#scripted-pipeline-notifier',
@@ -70,5 +70,5 @@ pipeline {
             )
         }
     }
-    -->
+    */
 }
