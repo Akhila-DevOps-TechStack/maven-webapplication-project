@@ -42,33 +42,6 @@ pipeline {
         }
     }
 
-/*   post {
-        always {
-            slackSend(
-                channel: '#scripted-pipeline-notifier',
-                tokenCredentialId: 'e6498867-65cd-4e32-af88-c520b4634da7',
-                color: '#FFFF00',
-                message: "🚀 Pipeline Started: ${env.JOB_NAME} #${env.BUILD_NUMBER}"
-            )
-        }
-
-        success {
-            slackSend(
-                channel: '#scripted-pipeline-notifier',
-                tokenCredentialId: 'e6498867-65cd-4e32-af88-c520b4634da7',
-                color: "#278EF5",
-                message: "✅ SUCCESS: ${env.JOB_NAME} #${env.BUILD_NUMBER}"
-            )
-        }
-
-        failure {
-            slackSend(
-                channel: '#scripted-pipeline-notifier',
-                tokenCredentialId: 'e6498867-65cd-4e32-af88-c520b4634da7',
-                color: "#FF0000",
-                message: "❌ FAILED: ${env.JOB_NAME} #${env.BUILD_NUMBER}"
-            )
-        }
-    }
     
-} */
+    
+
