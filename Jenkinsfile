@@ -11,7 +11,7 @@ pipeline {
                     url: 'https://github.com/Akhila-DevOps-TechStack/maven-webapplication-project.git'
             }
             }
-        }
+        
 
         stage ('build') {
             steps {
@@ -19,17 +19,17 @@ pipeline {
             }
         }
 
-        /* stage ('SonarQube Report') {
+         stage ('SonarQube Report') {
             steps {
                 sh 'mvn sonar:sonar'
             }
-        } */
+        } 
 
-        /*stage ('deploy in Nexus') {
+        stage ('deploy in Nexus') {
             steps {
                 sh 'mvn deploy'
             }
-        }*/
+        }
 
         stage ('deploy in Tomcat') {
             steps {
@@ -40,6 +40,7 @@ pipeline {
         """
             }
         }
+    }
     }
 
     
