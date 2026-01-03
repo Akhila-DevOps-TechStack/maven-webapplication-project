@@ -99,12 +99,19 @@
 	      <name>KK FUNDA Snapshot Nexus Repository </name>
 	      <url>http://13.201.52.96:8081/repository/Akhila-portfolio/</url>
 	    </snapshotRepository>
-	-->
+	
 		<snapshotRepository>
 	      <id>nexus</id>
 	      <name>KK FUNDA Snapshot Nexus Repository </name>
 	      <url>http://13.201.52.96:8081/repository/scripted-project/</url>
 	    </snapshotRepository>
+	-->
+		<snapshotRepository>
+	      <id>nexus</id>
+	      <name>KK FUNDA Snapshot Nexus Repository </name>
+	      <url>http://13.201.52.96:8081/repository/Decclarative-project/</url>
+	    </snapshotRepository>
+		
 	    
 	</distributionManagement>
 	
