@@ -7,7 +7,9 @@ pipeline {
     stages {
         stage ('checkout stage') {
             steps {
-                https://github.com/Akhila-DevOps-TechStack/maven-webapplication-project.git
+                git branch: 'master',
+                    url: 'https://github.com/Akhila-DevOps-TechStack/maven-webapplication-project.git'
+            }
             }
         }
 
@@ -34,7 +36,7 @@ pipeline {
                 sh """
                     curl -u $TOMCAT_USER:$TOMCAT_PASS \
             --upload-file target/maven-web-application.war \
-            "http://3.111.33.244:8080/manager/text/deploy?path=/maven-web-application&update=true"
+            "http://3.111.33.244:8080/text/deploy?path=/maven-web-application&update=true"
         """
             }
         }
