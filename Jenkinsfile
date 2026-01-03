@@ -19,22 +19,22 @@ pipeline {
             }
         }
 
-         stage ('SonarQube Report') {
+         /* stage ('SonarQube Report') {
             steps {
                 sh 'mvn sonar:sonar'
             }
-        } 
+        } */
 
-        stage ('deploy in Nexus') {
+        /* stage ('deploy in Nexus') {
             steps {
                 sh 'mvn deploy'
             }
-        }
+        } */
 
         stage ('deploy in Tomcat') {
             steps {
                 sh """
-                    curl -u $TOMCAT_USER:$TOMCAT_PASS \
+                    curl -u akhila:laxmi \
             --upload-file target/maven-web-application.war \
             "http://3.111.33.244:8080/text/deploy?path=/maven-web-application&update=true"
         """
