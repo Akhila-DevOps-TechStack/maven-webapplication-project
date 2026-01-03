@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage ('checkout stage') {
             steps {
-                git branch: 'dev', url: 'https://github.com/Akhila-DevOps-TechStack/maven-webapplication-project.git'
+                https://github.com/Akhila-DevOps-TechStack/maven-webapplication-project.git
             }
         }
 
@@ -32,15 +32,15 @@ pipeline {
         stage ('deploy in Tomcat') {
             steps {
                 sh """
-                    curl -u akhila:laxmi \
-                    --upload-file /var/lib/jenkins/workspace/Declarative-pipeline-job/target/maven-web-application.war \
-                    "http://65.2.122.48:8080/manager/text/deploy?path=/maven-web-application&update=true"
-                """
+                    curl -u $TOMCAT_USER:$TOMCAT_PASS \
+            --upload-file target/maven-web-application.war \
+            "http://3.111.33.244:8080/manager/text/deploy?path=/maven-web-application&update=true"
+        """
             }
         }
     }
 
-    post {
+<!--    post {
         always {
             slackSend(
                 channel: '#scripted-pipeline-notifier',
@@ -68,4 +68,5 @@ pipeline {
             )
         }
     }
+    -->
 }
